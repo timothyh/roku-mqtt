@@ -1,0 +1,33 @@
+{
+  "debug": false,
+  "discover_expire": {
+    "hours": 12,
+    "minutes": 1
+  },
+  "discover_upnp": true,
+  "mqtt_conf": {
+    "cafile": "./easyrsa-ca.crt",
+    "host": "mqtt.example.com",
+    "keepalive": 60,
+    "password": "not_a_real_password",
+    "ping_topic": "ping/roku/_ping",
+    "port": "8883",
+    "protocol": "mqtts",
+    "username": "roku2mqtt"
+  },
+  "new_roku_attribute": "ipaddress",
+  "new_roku_topic": "home/network/dhcp/+",
+  "poll_active": 2,
+  "poll_idle": 5,
+  "roku_app_topic": "home/roku/%s/app",
+  "roku_ips": [
+    "192.168.1.214",
+    "192.168.1.0/24"
+  ],
+  "roku_set_topic": "home/roku/+/set",
+  "roku_send_topic": "home/roku/+/send",
+  "roku_state_topic": "home/roku/%s/state",
+  "slug_separator": "_",
+  "status_topic": "home/roku/roku-mqtt/status",
+  "verbose": true
+}

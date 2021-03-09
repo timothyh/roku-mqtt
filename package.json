@@ -1,0 +1,20 @@
+{
+  "name": "roku-mqtt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "get-ip-range": "^3.0.0",
+    "json-stable-stringify": "^1.0.1",
+    "json5": "^2.2.0",
+    "luxon": "^1.26.0",
+    "mdns-js": "^1.0.3",
+    "mqtt": "^4.2.6",
+    "roku-client": "^5.2.0"
+  }
+}
